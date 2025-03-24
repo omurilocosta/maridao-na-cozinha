@@ -1,0 +1,44 @@
+
+:root {
+    --color-pri: #000;
+    --color-sec: #fff;
+    --color-cnz_clr: #f1f1f1;
+    --color-cnz_clr-border: #e0e0e0;
+    --color-cnz: #9f9f9f;
+
+    --orbe-spacing-0: 0px;
+    --orbe-spacing-1: 4px;
+    --orbe-spacing-2: 8px;
+    --orbe-spacing-3: 12px;
+
+}
+
+.u-w100 {
+    width: 100% !important;
+}
+
+.u-flex {
+    display: flex !important;
+}
+.u-justify-around {
+    justify-content: space-around !important;
+}
+.u-justify-center {
+    justify-content: center !important;
+}
+.u-justify-evenly{
+    justify-content: space-evenly !important;
+}
+.u-justify-between {
+    justify-content: space-between !important;
+}
+.u-items-center {
+    align-items: center !important;
+}
+
+.u-gap-2 {
+    gap: var(--orbe-spacing-2) !important;
+}
+.u-gap-3 {
+    gap: var(--orbe-spacing-3) !important;
+}
