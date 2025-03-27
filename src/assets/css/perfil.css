@@ -1,0 +1,7 @@
+main {
+    background-color: blueviolet;
+    min-height: 100vh;
+    padding: 10px 20px;
+    margin-top: 90px;
+    overflow-y: scroll;
+}
