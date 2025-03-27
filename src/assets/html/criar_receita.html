@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Maridão na Cozinha</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="https://lh3.googleusercontent.com/d/1UvS0X2myoOafRn0bh_CaVEWwOnqlKK7J" type="image/x-icon">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/reuse.css">
+    <link rel="stylesheet" href="../css/criar_receita.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/media-queries.css">
+    <link rel="stylesheet" href="../css/vars.css">    
+</head>
+<body>
+    <header class="u-flex u-items-center u-justify-center">
+        <div class="header--img">
+            <a href="../../../index.html"><img src="https://lh3.googleusercontent.com/d/1yKPNJ9e355CTKRsmvqRb7v3n5OVzsdOY"></a>
+        </div>
+    </header>
+    <main class="main__criar-receita">
+        <form action="">
+            <div class="inputs nome-receita">
+                <label for="nome_receita">Nome da receita</label>
+                <input type="text" name="nome_receita" placeholder="Exempo: Bolo de chocolate">
+            </div>
+            <div class="inputs descricao-receita">
+                <label for="descricao_receita">Descrição da receita</label>
+                <textarea type="text" name="descricao_receita" placeholder="Exempo: Este bolo de chocolate..."></textarea>
+            </div>
+            <div class="add-ingredientes">Adicionar Ingredientes</div>
+            <div id="add-ingredientes-area">
+                <div class="inputs-ingredientes">
+                    <input type="text" name="ingredientes[]" placeholder="Ingrediente">
+                    <input type="text" name="quantidades[]" placeholder="Quantidade">
+                </div>
+            </div>
+            <button class="add-ingrediente__botao" type="button" onclick="adicionarIngrediente()">+</button>
+            <div class="add-preparo">Adicionar Modos de Preparo</div>
+            <div id="add-preparos-area">
+                <div class="inputs-preparos">
+                    <input type="text" name="passos[]" placeholder="Passo 1">
+                </div>
+            </div>
+            <button class="add-ingrediente__botao" type="button" onclick="adicionarPasso()">+</button>
+
+            <button class="criar-receita__botao" type="submit">CRIAR RECEITA</button>
+        </form>
+    </main>
+
+    <footer>
+        <div class="rodape-topo u-flex u-items-center u-justify-center">
+            <div class="rodape-logo"><img src="https://lh3.googleusercontent.com/d/1RviZW_7HDElq4-2Vx-wX-9PLKK9Lbbnc"></div>
+        </div>
+        <div class="rodape-baixo">
+            <div class="rodape-baixo-texto">Siga-nos:</div>
+            <div class="rodape-baixo-redes u-flex u-items-center u-justify-center u-gap-3">
+                <a href="">
+                    <i class="bx bxl-facebook-square"></i>
+                </a>
+                <a href="">
+                    <i class="bx bxl-instagram"></i>
+                </a>
+                <a href="">
+                    <i class="bx bxl-pinterest"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script defer src="../js/script.js"></script>
+</body>
+</html>

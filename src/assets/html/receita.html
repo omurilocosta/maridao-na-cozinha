@@ -4,14 +4,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Maridão na Cozinha</title>
-    <link rel="shortcut icon" href="https://lh3.googleusercontent.com/d/1UvS0X2myoOafRn0bh_CaVEWwOnqlKK7J" type="image/x-icon">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="./src/assets/css/reset.css">
-    <link rel="stylesheet" href="./src/assets/css/reuse.css">
-    <link rel="stylesheet" href="./src/assets/css/header.css">
-    <link rel="stylesheet" href="./src/assets/css/footer.css">
-    <link rel="stylesheet" href="./src/assets/css/main.css">
-    <link rel="stylesheet" href="./src/assets/css/vars.css">    
+    <link rel="shortcut icon" href="https://lh3.googleusercontent.com/d/1UvS0X2myoOafRn0bh_CaVEWwOnqlKK7J" type="image/x-icon">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/reuse.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/receita.css">
+    <link rel="stylesheet" href="../css/media-queries.css">
+    <link rel="stylesheet" href="../css/vars.css">    
 </head>
 <body>
     <header class="cabecalho">
@@ -49,16 +50,37 @@
             </div>
         </div>
     </header>
-    <main class="receita-area">
-        <article class="receita-item">
-            <form action="./src/assets/html/receita.html" method="post">
-                    <div class="receita-item--img"><img src="src/assets/img/image.png"></div>
-                    <div class="receita-item--titulo">Bolo de milho</div>
-                    <div class="receita-item--descricao">O bolo de milho é uma receita tradicional e caseira, feita com milho-verde e ingredientes simples, resultando em um bolo macio, saboroso e levemente doce. Perfeito para o café da manhã ou lanche da tarde, seu aroma irresistível remete à cozinha da vovó e às festas juninas.</div>
-                    <div class="receita-item--botao"><button type="submit">Ver receita</button></div>
-            </form>
-        </article>
+
+    <main class="main__recipe u-flex u-flex-col">
+        <div class="receita--img"><img src="https://www.receitasonline.com.br/wp-content/uploads/bolo-de-milho.jpg"></div>
+        <div class="receita--titulo">Bolo de milho</div>
+        <div class="receita--descricao">O bolo de milho é uma receita tradicional e caseira, feita com milho-verde e ingredientes simples, resultando em um bolo macio, saboroso e levemente doce. Perfeito para o café da manhã ou lanche da tarde, seu aroma irresistível remete à cozinha da vovó e às festas juninas.</div>
+        <div class="receita--tempo u-flex u-items-center u-justify-center u-gap-1">
+            <span class="icone"><i class='bx bx-time-five'></i></span>
+            <span class="tempo">45</span>
+            <span class="minuto">MIN</span>
+        </div>
+        <div class="receita--ingrediente-titulo">Ingredientes</div>
+        <ul class="receita--ingredientes-area">
+            <li>2 xícaras de milho-verde </li>
+            <li>2 xícaras de milho-verde </li>
+            <li>2 xícaras de milho-verde </li>
+            <li>2 xícaras de milho-verde </li>
+            <li>2 xícaras de milho-verde </li>
+            <li>2 xícaras de milho-verde </li>
+            <li>2 xícaras de milho-verde </li>
+            <li>2 xícaras de milho-verde </li>
+        </ul>
+        <div class="receita--preparo-titulo">Modo de Preparo</div>
+        <ol class="receita--preparos-area">
+            <li>Bata no liquidificador o milho, o leite, os ovos, o açúcar e o óleo até obter uma mistura homogênea.</li>
+            <li>Bata no liquidificador o milho, o leite, os ovos, o açúcar e o óleo até obter uma mistura homogênea.</li>
+            <li>Bata no liquidificador o milho, o leite, os ovos, o açúcar e o óleo até obter uma mistura homogênea.</li>
+            <li>Bata no liquidificador o milho, o leite, os ovos, o açúcar e o óleo até obter uma mistura homogênea.</li>
+            <li>Bata no liquidificador o milho, o leite, os ovos, o açúcar e o óleo até obter uma mistura homogênea.</li>
+        </ol>
     </main>
+
     <footer>
         <div class="rodape-topo u-flex u-items-center u-justify-center">
             <div class="rodape-logo"><img src="https://lh3.googleusercontent.com/d/1RviZW_7HDElq4-2Vx-wX-9PLKK9Lbbnc"></div>

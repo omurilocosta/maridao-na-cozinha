@@ -1,0 +1,25 @@
+footer {
+    background-color: var(--color-pri);
+}
+.rodape-topo {
+    padding: 2rem 7rem;
+    border-bottom: 1px solid var(--color-sec);
+    margin: 0 7rem;
+}
+.rodape-logo {
+    width: 174px;
+    height: auto;
+}
+.rodape-baixo-texto {
+    color: var(--color-sec);
+    font-size: 13px;
+    text-align: center;
+    padding: 15px 0;
+}
+.rodape-baixo-redes {
+    padding: 15px 0;
+}
+.rodape-baixo-redes .bx {
+    font-size: 35px;
+    color: var(--color-sec);
+}

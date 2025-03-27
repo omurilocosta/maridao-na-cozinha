@@ -1,0 +1,11 @@
+@media screen and (max-width:999px) {
+    .main__recipe {
+        width: 100%;
+        align-items: flex-start;
+    }
+    .receita--img, .receita--titulo, .receita--descricao,
+    .receita--tempo, .receita--ingrediente-titulo, .receita--ingredientes-area,
+    .receita--preparo-titulo, .receita--preparos-area{
+        width: 100%;
+    }
+}

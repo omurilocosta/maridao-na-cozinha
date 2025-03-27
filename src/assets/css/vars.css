@@ -4,6 +4,7 @@
     --color-sec: #fff;
     --color-cnz_clr: #f1f1f1;
     --color-cnz_clr-border: #e0e0e0;
+    --color-cnz_esc: #545454;
     --color-cnz: #9f9f9f;
 
     --orbe-spacing-0: 0px;
@@ -35,7 +36,12 @@
 .u-items-center {
     align-items: center !important;
 }
-
+.u-flex-col {
+    flex-direction: column !important;
+}
+.u-gap-1{
+    gap: var(--orbe-spacing-1) !important;
+}
 .u-gap-2 {
     gap: var(--orbe-spacing-2) !important;
 }
